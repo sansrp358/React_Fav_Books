@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background: #F9E8D9;
+  color: #222;
+}
+
+.booklist {
+  width: 90vw;
+  max-width: 1170px;
+  margin: 5rem auto;
+  display: grid;
+  gap: 2rem;
+}
+
+@media screen and (min-width: 768px) {
+  .booklist {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.book {
+  background: #E5D4FF;
+  border-radius: 2rem;
+  padding: 2rem;
+  text-align: center;
+}
+
+.book img {
+  width: 50%;
+  object-fit: cover;
+}
+.book h2 {
+  margin-top: 1rem;
+  font-size: 1rem;
+}
+
+.book h3 {
+  color: #768;
+  font-size: 0.75rem;
+  margin-top: 0.5rem;
+}
