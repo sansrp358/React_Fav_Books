@@ -25,22 +25,23 @@ body {
 }
 
 .book {
-  /* background: #E5D4FF; */
-  background-image: linear-gradient(
+  background: #e5d4ff;
+  /* background-image: linear-gradient(
     to right top,
-    #c391ac,
-    #c19cbb,
-    #bea7c7,
-    #bbb2d0,
-    #bbbcd7,
-    #b7bad5,
-    #b3b8d4,
-    #afb6d2,
-    #a6a7c9,
-    #a098be,
-    #9b89b2,
-    #9779a5
-  );
+    #b290a1,
+    #bda1b2,
+    #c8b2c3,
+    #d4c3d3,
+    #e0d4e2,
+    #e4d4e9,
+    #e7d3f0,
+    #e9d3f7,
+    #e5c0f6,
+    #e1acf3,
+    #df97ef,
+    #de81e9
+  ); */
+
   border-radius: 2rem;
   padding: 2rem;
   text-align: center;
