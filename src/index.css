@@ -45,6 +45,7 @@ body {
   border-radius: 2rem;
   padding: 2rem;
   text-align: center;
+  position: relative;
 }
 
 .book img {
@@ -60,4 +61,24 @@ body {
   color: #768;
   font-size: 0.75rem;
   margin-top: 0.5rem;
+}
+
+.number {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0.75rem;
+  font-size: 1rem;
+  border-radius: 1rem;
+  background: #9F70FD;
+  border-top-left-radius: 2rem;
+  border-bottom-right-radius: 3.5rem;
+  color: #fff;
+}
+
+h1{
+  text-align: center;
+  margin-top: 4rem;
+  text-transform: capitalize;
+  color: #9F70FD;
 }
